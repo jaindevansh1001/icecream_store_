@@ -1,0 +1,189 @@
+{
+    "icecreams": [
+        {   "id" :0,
+            "category": "Classic",
+            "isFeatured": true,
+            "flavor": "Vanilla",
+            "description":"Classic and creamy",
+            "toppings":["Chocolate Sauce", "Sprinkles","Caremel Drizzle", "Chopped Nuts"],
+            "price":199.99,
+            "image":"https://images.unsplash.com/photo-1560008581-09826d1de69e?q=80&w=444&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                { "name":"Vanilla Extract", "quantity": "2tsp"},
+                { "name":"Whipping Cream", "quantity": "1/2 cup"},
+                { "name":"Sugar", "quantity":"1/2 cups"}
+            ]
+        },
+        {
+            "id" :1,
+            "category": "Chocolate",
+            "isFeatured": true,
+            "flavor": "Chocolate",
+            "description":"Rich and indulgent chocolate ice",
+            "toppings":["Chocolate Sauce", "Sprinkles","Caremel Drizzle", "Chopped Nuts"],
+            "price":249.99,
+            "image":"https://images.unsplash.com/photo-1570081457302-6c0f1bd174bd?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                { "name":"Cocoa Powder", "quantity": "1/2 cup"},
+                { "name":"Whipping Cream", "quantity": "1/2 cup"},
+                { "name":"Heavy Cream", "quantity":"2 cups"},
+                { "name":"Caremel Sauce", "quantity": "1/2 cup"},
+                { "name":"Vanilla Extract", "quantity": "2tsp"}
+            ]
+        },
+        {
+            "id" :2,
+            "category": "Caramel",
+            "isFeatured": true,
+            "flavor": "Caremel Swirl",
+            "description":"Sweet and buttery",
+            "toppings":["Salted Caremel","Caremel Popkorn"],
+            "price":99.99,
+            "image":"https://plus.unsplash.com/premium_photo-1661288452010-951ca57991fc?q=80&w=879&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [
+                { "name":"Caremel Sauce", "quantity": "1/2 cup"},
+                { "name":"Whipping Cream", "quantity": "1/2 cup"},
+                { "name":"Vanilla Extract", "quantity": "2tsp"},
+                { "name":"Heavy Cream", "quantity": "1/4 cup"}
+            ]
+        },
+        {
+            "id" :3,
+            "category": "Mint",
+            "isFeatured": false,
+            "flavor": "Mint Chocolate Chip ",
+            "description":"Indulgent chocolate icecream",
+            "toppings":["Chopped Nuts","Caremel Drizzle"],
+            "price":269.50,
+            "image":"https://images.unsplash.com/photo-1553452118-621e1f860f43?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [    
+                { "name":"Cocoa Powder", "quantity": "1/2 cup"},
+                { "name":"Whipping Cream", "quantity": "1/2 cup"},
+                { "name":"Caremel Sauce", "quantity": "1/2 cup"},
+                { "name":"Heavy Cream", "quantity": "1/4 cup"}
+            ]
+        },
+        {
+            "id" :4,
+            "category": "Nutty",
+            "isFeatured": false,
+            "flavor": "Pistachio ",
+            "description":"Delicate pistachio-flavoured ice cream made with real pista",
+            "toppings":["Crushed Pistachios","Honey drizzle", "Rose Petals"],
+            "price":149.50,
+            "image":"https://images.unsplash.com/photo-1534706936160-d5ee67737249?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [    
+                { "name":"Pistachio Nuts", "quantity": "1/2 cup"},
+                { "name":"Honey", "quantity": "2 tsp"},
+                { "name":"Caremel Sauce", "quantity": "1/2 cup"},
+                { "name":"Heavy Cream", "quantity": "1/4 cup"}
+            ]
+        },
+        {
+            "id" :5,
+            "category": "Fruit",
+            "isFeatured": true,
+            "flavor": "Strawberry",
+            "description":"Sweet and refreshing Strawberry flavour with real fruit",
+            "toppings":["Fresh Strawberries","Rainbow Sprinkles", "Condensed Milk"],
+            "price":169.50,
+            "image":"https://images.unsplash.com/photo-1618485476424-7dc9cd512c08?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [    
+                { "name":"Strawberries", "quantity": "1 cup"},
+                { "name":"Sugar", "quantity": "1/2 cup"},
+                { "name":"Heavy Cream", "quantity": "1/4 cup"}
+            ]
+        },
+        {
+            "id" :6,
+            "category": "Butter Scotch",
+            "isFeatured": true,
+            "flavor": "Browned Butter",
+            "description":"Smooth flavour with lots of bowned butter and vanilla",
+            "toppings":["Brown sugar","Bourbon", "Condensed Milk"],
+            "price":189.00,
+            "image":"https://media.istockphoto.com/id/1126116327/photo/vanilla-ice-cream-with-caramel-sauce-isolated-on-white-background-macro.jpg?s=612x612&w=is&k=20&c=OP-Dv4iNVMZXbusZmUuj6TF40gNbWpbr76oEz6yLq_Q=",
+            "ingredients": [    
+                { "name":"Heavy Cream", "quantity": "1 cup"},
+                { "name":"Brown Sugar", "quantity": "1/2 tsp"},
+                { "name":"Brown Butter", "quantity": "3/4 cup"}
+            ]
+        },
+        {
+            "id" :7,
+            "category": "Cherry Vanilla",
+            "isFeatured": false,
+            "flavor": "Cherry",
+            "description":"Cherry Vanilla Ice Cream combines the creamy taste of rich vanilla flavored ice cream and delicious red cherries",
+            "toppings":["Fresh Cherries","Rainbow Sprinkles"],
+            "price":235.50,
+            "image":"https://images.unsplash.com/photo-1476887334197-56adbf254e1a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ingredients": [    
+                { "name":"Cherries", "quantity": "1 cup"},
+                { "name":"Whipping Cream", "quantity": "1/2 cup"},
+                { "name":"Vanilla Extract", "quantity": "2tsp"}
+            ]
+        },
+        {
+            "id" :8,
+            "category": "Maple Icecream",
+            "isFeatured": true,
+            "flavor": "Maple",
+            "description":"Deliciously sweet flavor in soft-serve form, piled on top of a waffle cone",
+            "toppings":["Maple syrup","Rainbow Sprinkles", "Condensed Milk"],
+            "price":245.50,
+            "image":"https://media.istockphoto.com/id/1051161676/photo/ice-cream-ball-with-maple-syrup.jpg?s=612x612&w=is&k=20&c=6wwUI-jANRJ02ds9A5-fNlxYTasFIe-n3d9Vj7AiC8A=",
+            "ingredients": [    
+                { "name":"Maple Concentrare", "quantity": "1 cup"},
+                { "name":"Sugar", "quantity": "1/2 cup"},
+                { "name":"Caramel Coloring", "quantity": "1/4 cup"}
+            ]
+        },
+        {
+            "id" :9,
+            "category": "Moose Tracks",
+            "isFeatured": true,
+            "flavor": "Moose tracks fudge",
+            "description":"Deliciously sweet flavor in soft-serve form, piled on top of a waffle cone",
+            "toppings":["Fudge Swirls","Condensed Milk","Rainbow Sprinkles"],
+            "price":165.60,
+            "image":"https://media.istockphoto.com/id/1167066023/photo/homemade-moose-tracks-ice-cream.jpg?s=612x612&w=is&k=20&c=i5aiYwmJbPaClTWQt38g82kYXXQE1r_JQ1zrGtqlU58=",
+            "ingredients": [    
+                { "name":"Peanut Butter", "quantity": "1/2 cup"},
+                { "name":"Chocolate mint", "quantity": "1/2 cup"},
+                { "name":"Fudge Swirls", "quantity": "1/4 cup"}
+            ]
+        },
+        {
+            "id" :10,
+            "category": "Ruspberry Ripple",
+            "isFeatured": false,
+            "flavor": "Raspberry",
+            "description":"Classic Raspberry Ripple features natural raspberry puree artfully swirled through a creamy vanilla base",
+            "toppings":["Raspberry Syrup","Vanilla cream","Rainbow Sprinkles"],
+            "price":210.50,
+            "image":"https://media.istockphoto.com/id/584853686/photo/close-up-of-delicious-dessert-raspberry-pink-ice-cream-scoops.jpg?s=612x612&w=is&k=20&c=CInfGkUEEfOiKAHuGZuNDqkAi4LT2bQk4kqOl_rmtyc=",
+            "ingredients": [    
+                { "name":"Raspberries", "quantity": "1/2 cup"},
+                { "name":"Raspberry Syrup", "quantity": "1/2 cup"},
+                { "name":"Thick cream", "quantity": "1/4 cup"}
+            ]
+        },
+        {
+            "id" :11,
+            "category": "Rum Raisin",
+            "isFeatured": true,
+            "flavor": "Maple",
+            "description":"Deliciously sweet flavor in soft-serve form, piled on top of a waffle cone",
+            "toppings":["Rum","Cinnamon","Toasted oats"],
+            "price":280.00,
+            "image":"https://media.istockphoto.com/id/857448920/photo/mocha-and-rum-raisin-ice-cream.jpg?s=612x612&w=is&k=20&c=-08slUeRgJH1BTCf_nhKa7itIuGOhjYi0moE9VtXYtY=",
+            "ingredients": [    
+                { "name":"Plump raisins", "quantity": "1/3 cup"},
+                { "name":"Rum", "quantity": "1/5 cup"},
+                { "name":"Creamy custard", "quantity": "1/4 cup"}
+            ]
+        }
+
+    ]
+}
